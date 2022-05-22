@@ -1,0 +1,8 @@
+FrmClient = 51, 117, 622, 582, C, 22, 25, 593, 490, C
+FrmClientOptions = 0, 0, 0, 0, C, 154, 175, 725, 638, C
+FrmClientConnect = 0, 0, 571, 465, Z, 0, 0, 571, 465, C
+FrmAbout = 0, 0, 0, 0, C, 22, 25, 593, 490, C
+FrmPopup = 0, 0, 0, 0, C, 132, 132, 663, 580, C
+FrmClientDrawBoard = 66, 75, 635, 540, C, 154, 175, 723, 640, C
+FrmAssistance = 176, 200, 746, 665, , 132, 150, 702, 615, C
+Registery = 0, 0, 0, 0, C

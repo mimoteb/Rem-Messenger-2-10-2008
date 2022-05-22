@@ -1,0 +1,365 @@
+1-  џнн— ‘«‘… »ѕЅ ж«де«Ѕ жндѕж“ жж÷Џ √н ’ж—…  —нѕе« :
+
+ед«я Ћб«Ћ… гбЁ«    Ќяг »е–« «б«г— жен :
+LOGO.SYS Џ»«—… Џд ‘«‘… »ѕЅ «б ‘џнб жн ж÷Џ Џбм «б C:/ г»«‘—… .
+LOGOW.SYS ‘«‘… «б«д ў«— жгя«де C:/WINDOWS
+LOGOS.SYS ‘«‘… ≈нё«Ё «б ‘џнб 
+же–е «бгбЁ«  «бЋб«Ћ… Џ»«—… Џд ’ж—… дёЎн… 256 бжд »ён«” 400*320
+
+џн— бж«Ќё «бгбЁ«  «б «бн… «бм BMP Ћг Ќ——е« »«” ќѕ«г »—д«гћ жбняд «б—”«г гЋб« , Ћг Џѕбе« яг«  —нѕ 
+ж»Џѕ –бя џн— «ббж«Ќё «бм SYS ж÷Џе« Ён √гяд е« «бгќ’’… .....
+№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№
+
+2- «“«б… ябг… «ќ ’«— «бм ( SHORTCUT TO ) «б н  ÷«Ё «бм «б«ќ ’«—«  
+
+ёг » ‘џнб гЌ—— «б  ”ћнб REGEDIT 
+Ћг «д ёб «бм «бё”г «б «бн :
+HKEY_CURRENT_USER\SOFTWARE\MICROSOFT\
+WINDOWS\CURRENTVERSION\EXPLORER
+ж»Џѕ –бя ёг »≈÷«Ё… гЁ «Ќ гд джЏ BINARY 
+жд”гне Link 
+ждЏЎне «бёнг… ( 00 00 00 00 ) бгдЏ «÷«Ё… ябг… «ќ ’«— ...
+№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№
+
+3- «“«б… «б”ег «б–н нўе— Џбм «нёжд… «б«ќ ’«— 
+
+жеж ”ег ’џн— н ж÷Џ Џбм √нёжд… «б«ќ ’«— :
+
+ёг » ‘џнб гЌ—— «б  ”ћнб REGEDIT 
+Ћг «д ёб «бм «бё”г «б «бн :
+HKEY_CLASSES_ROOT\INKFILE
+Ћг «Ќ–Ё «бгЁ «Ќ ISSHORTCUT
+Ћг «д ёб «бм «бё”г «б «бн :
+HKEY_CLASSES_ROOT\PIFFILE
+Ћг «Ќ–Ё «бгЁ «Ќ ISSHORTCUT
+№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№
+
+4- гдЏ г” ќѕг гд «бж’жб «бм гЌ—— «б ”ћнб ж–бя бЌг«н… «бдў«г :
+ёг » ‘џнб гЌ—— «б  ”ћнб REGEDIT 
+Ћг «д ёб «бм «бё”г «б «бн :
+HKEY_CURRENT_USER\SOFTWARE\MICROSOFT\
+WINDOWS\CURRENTVERSION\POLICIES\SYSTEM
+Ћг дёжг »≈÷«Ё… гЁ «Ќ гд джЏ DWORD
+жд”гне DisableRegistryTools
+Ћг дЏЎне «бёнг… ( 1 ) б ЏЎнб «” ќѕ«ге 
+√ж«бёнге ( 0 ) б гянде гд «” ќѕ«г «бгЌ—— ....
+№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№
+
+5- ≈÷«Ё… «б«г— ( Open With Dos Prompt ) ббё«∆г… «б н  ўе— Џдѕ «бдё— »«б“— «бнгндн Џбм гћбѕ :
+
+же–« нЁнѕ »Ё Ќ «бгћбѕ ÷гд д«Ё–… гжће «бѕж” ...
+ёг » ‘џнб гЌ—— «б  ”ћнб REGEDIT 
+Ћг «д ёб «бм «бё”г «б «бн :
+HKEY_CLASSES_ROOT\DIRCTORY\SHELL
+Ћг «÷«Ё… гЁ «Ќ —∆н”н жд”гне Dos
+Ћг дџн— ёнг… «бгЁ «Ќ DEFAULT «бгжћжѕ ÷где б ’»Ќ ( Open With Dos Prompt ) 
+Ћг дёжг »≈÷«Ё… гЁ «Ќ —∆н”н ÷где жд”гне COMMAND
+Ћг дџн— ёнг… «бгЁ «Ќ DEFAULT «бгжћжѕ ÷где б ’»Ќ ( C:\Command>com /K CD )
+№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№
+
+6- ≈÷«Ё… «б«г— ( Open With Dos Prompt ) ббё«∆г… «б н  ўе— Џдѕ «бдё— »«б“— «бнгндн Џбм ”ж«ё… :
+ёг » ‘џнб гЌ—— «б  ”ћнб REGEDIT 
+Ћг «д ёб «бм «бё”г «б «бн :
+HKEY_CLASSES_ROOT\DIRCTORY\SHELL
+Ћг «÷«Ё… гЁ «Ќ —∆н”н жд”гне ExploreHere
+Ћг дџн— ёнг… «бгЁ «Ќ DEFAULT «бгжћжѕ ÷где б ’»Ќ (Explore From Here) 
+Ћг дёжг »≈÷«Ё… гЁ «Ќ —∆н”н ÷где жд”гне COMMAND
+Ћг дџн— ёнг… «бгЁ «Ќ DEFAULT «бгжћжѕ ÷где б ’»Ќ ( exeplorer.exe /e,/root,/idlist,%1 ) 
+№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№
+
+7- ≈÷«Ё… «б«г— ( Quick Disk Copy A: to A) ббё«∆г… «б н  ўе— Џдѕ «бдё— »«б“— «бнгндн Џбм «б”ж«ё… A :
+же–« н нЌ «гя«дн… д”ќ ”—нЏ гд «бё—’ A «бм ё—’ ¬ќ— ÷÷гд дЁ” «б”ж«ё… :
+ёг » ‘џнб гЌ—— «б  ”ћнб REGEDIT 
+Ћг «д ёб «бм «бё”г «б «бн :
+HKEY_CLASSES_ROOT\DIRCTORY\SHELL
+Ћг «÷«Ё… гЁ «Ќ —∆н”н жд”гне Diskcopy
+Ћг дџн— ёнг… «бгЁ «Ќ DEFAULT «бгжћжѕ ÷где б ’»Ќ (Quick Disk Copy A: to A) 
+Ћг дёжг »≈÷«Ё… гЁ «Ќ —∆н”н ÷где жд”гне COMMAND
+Ћг дџн— ёнг… «бгЁ «Ќ DEFAULT «бгжћжѕ ÷где б ’»Ќ ( diskcopy.com A: A: ) 
+№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№
+
+8- ≈÷«Ё… «б«г— ( Empty Disk Drive ) ббё«∆г… «б н  ўе— Џдѕ «бдё— »«б“— «бнгндн Џбм «б”ж«ё… A :
+жеж н нЌ г”Ќ гЌ жн«  «бё—’ A »≈гя«дн… ж’жб √”—Џ :
+ёг » ‘џнб гЌ—— «б  ”ћнб REGEDIT 
+Ћг «д ёб «бм «бё”г «б «бн :
+HKEY_CLASSES_ROOT\DIRCTORY\SHELL
+Ћг «÷«Ё… гЁ «Ќ —∆н”н жд”гне EmptyA
+Ћг дџн— ёнг… «бгЁ «Ќ DEFAULT «бгжћжѕ ÷где б ’»Ќ (Empty Disk Drive) 
+Ћг дёжг »≈÷«Ё… гЁ «Ќ —∆н”н ÷где жд”гне COMMAND
+Ћг дџн— ёнг… «бгЁ «Ќ DEFAULT «бгжћжѕ ÷где б ’»Ќ ( deltree.exe /y A) 
+№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№
+
+9- ≈÷«Ё… «б«г— ( ScanDisk all Drives ) ббё«∆г… «б н  ўе— Џдѕ «бдё— »«б“— «бнгндн Џбм √н ”ж«ё… :
+жеж н нЌ »—д«гћ  ЁЌ’ «б«ё—«’ »≈гя«дн… ж’жб √”—Џ :
+ёг » ‘џнб гЌ—— «б  ”ћнб REGEDIT 
+Ћг «д ёб «бм «бё”г «б «бн :
+HKEY_CLASSES_ROOT\DIRCTORY\SHELL
+Ћг «÷«Ё… гЁ «Ќ —∆н”н жд”гне Scan
+Ћг дџн— ёнг… «бгЁ «Ќ DEFAULT «бгжћжѕ ÷где б ’»Ќ (ScanDisk all Drives ) 
+Ћг дёжг »≈÷«Ё… гЁ «Ќ —∆н”н ÷где жд”гне COMMAND
+Ћг дџн— ёнг… «бгЁ «Ќ DEFAULT «бгжћжѕ ÷где б ’»Ќ ( scandskw.exe /all /n) 
+№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№
+
+10- ≈÷«Ё… «б«г— ( Defragment This Drive) ббё«∆г… «б н  ўе— Џдѕ «бдё— »«б“— «бнгндн Џбм √н ”ж«ё… :
+жеж н нЌ »—д«гћ ≈бџ«Ѕ  ћ“∆… «бё—’ »≈гя«дн… ж’жб √”—Џ :
+ёг » ‘џнб гЌ—— «б  ”ћнб REGEDIT 
+Ћг «д ёб «бм «бё”г «б «бн :
+HKEY_CLASSES_ROOT\drive\SHELL
+Ћг «÷«Ё… гЁ «Ќ —∆н”н жд”гне Defrag
+Ћг дџн— ёнг… «бгЁ «Ќ DEFAULT «бгжћжѕ ÷где б ’»Ќ (Defragment This Drive) 
+Ћг дёжг »≈÷«Ё… гЁ «Ќ —∆н”н ÷где жд”гне COMMAND
+Ћг дџн— ёнг… «бгЁ «Ќ DEFAULT «бгжћжѕ ÷где б ’»Ќ ( defrag.exe "%1"noprompt) 
+№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№
+
+11- ≈÷«Ё… «б«г— ( Print) ббё«∆г… «б н  ўе— Џдѕ «бдё— »«б“— «бнгндн Џбм √н гћбѕ :
+жеж н нЌ ≈гя«дн… ж’жб √”—Џ бЎ»«Џ… ё«∆г… »«бгбЁ«  «бгжћжѕ… ÷гд «бгћбѕ «бгЌѕѕ .........
+ёг » ‘џнб гЌ—— «б  ”ћнб REGEDIT 
+Ћг «д ёб «бм «бё”г «б «бн :
+HKEY_CLASSES_ROOT\DIRCTORY\SHELL
+Ћг «÷«Ё… гЁ «Ќ —∆н”н жд”гне Print
+Ћг дџн— ёнг… «бгЁ «Ќ DEFAULT «бгжћжѕ ÷где б ’»Ќ (Defragment This Drive) 
+Ћг дёжг »≈÷«Ё… гЁ «Ќ —∆н”н ÷где жд”гне COMMAND
+Ћг дџн— ёнг… «бгЁ «Ќ DEFAULT «бгжћжѕ ÷где б ’»Ќ ( command.com /c dir /ogn > %1) 
+№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№
+
+12- «б Ќяг »”—Џ… ўеж— «бёж«∆г .
+ёг » ‘џнб гЌ—— «б  ”ћнб REGEDIT 
+HKEY_CURRENT_USER\control Panel\Desktop
+Ћг дёжг »≈÷«Ё… гЁ «Ќ гд джЏ STRING
+жд”гне MenuShowDelay
+Ћг дЏЎне «бёнг… »нд ( 0 ж 999 ) гнбн Ћ«дн… 
+Ў»Џ« «бёнг… ( 0 ) ен «б«”—Џ .
+№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№
+
+13- ≈÷«Ё… «б√г— Quicview ≈бм «бё«∆г… «бгд”ѕб… бя«Ё… «бгбЁ«  .
+же–« «б√г— н нЌ Џ—÷ «бгбЁ «бгЌѕѕ »‘яб ”—нЏ :
+ёг » ‘џнб гЌ—— «б  ”ћнб REGEDIT 
+Ћг дд ёб «бм «бё”г :
+HKEY_CLASSES_ROOT\*\
+Ћг дёжг »≈д‘«Ѕ гбЁ —∆н”н д”гне Quicview
+Ћг дџн— «бёнг… ббгЁ «Ќ Default «бгжћжѕ ÷гд «бгЁ «Ќ «б—∆н”н «б–н  г ≈д‘«ƒе ≈бм «бёнг… ( * )
+№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№
+
+14- ж÷Џ ‘Џ«— ‘—я я «бќ«’… жгЏбжг«  Џде« Ён ’дѕжё ≈Џѕ«ѕ«  «бдў«г 
+ж–бя б≈÷«Ё… г“нѕ« гд «бќ’ж’н… Џбм яг»нж —я «бќ«’ же–« нЏ—÷ ÷гд ’дѕжё ќ’«∆’ «бдў«г 
+дёжг »≈д‘«Ѕ гбЁ н”гм OEMINFO.INI ÷гд гћбѕ SYSTEM Ён жндѕж“
+95 -98-ME √ж ÷гд «бгћбѕ SYSTEM 32 Ён «бжндѕж“ NT ж 2000
+ёг »Ё Ќ «бгбЁ »ж«”Ў… «бгЁя—… Ћг дя » «бгЏбжг«  «б «бн… :
+General
+Manufacturer = ед«  я » «”г «б‘—я… «бќ«’… »я 
+Model = «я » гжѕнб «бЌ«”» «б–н  ” ќѕге 
+
+Support Information
+Line1= ед« «б”Ў— «б√жб гд «бгЏбжг«  «б н  жѕ я «» е« 
+Line2= «б”Ў— «бЋ«дн 
+Line3= «б”Ў— «бЋ«бЋ 
+Line4= «б”Ў— «б—«»Џ
+ж ” ЎнЏ ж÷Џ √”Ў— »«бгёѕ«— «б–н  —нѕ 
+»Џѕ –бя ёг »≈д‘«Ѕ ’ж—… б‘Џ«— ‘—я я Ћг ёг » ”гн е« OEMLOGO.BMP 
+Ћг ж÷Џе« ÷гд «бгћбѕ SYSTEM
+жб≈ўе«— «бд нћ… :
+«÷џЎ Џбм «нёжд… «бдў«г Ён бжЌ… «б Ќяг б —м ’ж—… «б‘Џ«— ж«бгЏбжг«  «бгѕќб… 
+÷гд «бё”г Џ«г General .
+№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№
+
+15-  џнн— «”г «бг” ќѕг ж«”г «б‘—я… 
+џ«б»« г« н—џ» «б»Џ÷ » џнн— е–е «бгЏбжг«  б√”»«» √гдн… ёѕ   Џбё »«б«ќ —«ё , 
+Џбг« √д е–е «бгЏбжг«  н г ≈” ќѕ«ге«  бё«∆н« Џдѕ  Ћ»н  »—«гћ ћѕнѕ… .
+ёг » ‘џнб гЌ—— «б  ”ћнб REGEDIT 
+Ћг дд ёб «бм «бё”г :
+HKEY_CURRENT_USER\SOFTWARE\MICROSOFT\
+MS SETUP (ACME)\USER INFO
+дЌѕѕ «бгЁ «Ќ DefName ж«б–н нгЋб «”г «бг” ќѕг Ћг дя » «б«”г «бћѕнѕ 
+Ћг дЌѕѕ «бгЁ «Ќ DefCompany ж«б–н нгЋб «”г «б‘—я… Ћг дя » «б«”г «бћѕнѕ .
+№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№
+
+16- ≈“«б… √г— ≈нё«Ё «б ‘џнб ( Shut Down ) гд ё«∆г… «»ѕ√ :
+ёг » ‘џнб гЌ—— «б  ”ћнб REGEDIT 
+Ћг дд ёб «бм «бё”г :
+HKEY_CURRENT_USER\SOFTWARE\MICROSOFT\
+WINDOWS\CURRENTVERSION\POLICIES\EXPLORER
+дёжг »≈÷«Ё… гЁ «Ќ гд «бджЏ DWORD
+жд”гне NoCLOSE
+Ћг дЏЎне «бёнг… ( 1 ) б≈“«б… √г— ≈нё«Ё «б ‘џнб 
+√ж«бёнге ( 0 ) б≈ўе«—е 
+№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№
+
+17- гдЏ ≈÷«Ё… √”г«Ѕ «бгбЁ«  «бгЁ жЌ… ≈бм ё«∆г… «бг” дѕ«  
+ёг » ‘џнб гЌ—— «б  ”ћнб REGEDIT 
+Ћг дд ёб «бм «бё”г :
+HKEY_CURRENT_USER\SOFTWARE\MICROSOFT\
+WINDOWS\CURRENTVERSION\POLICIES\EXPLORER
+дёжг »≈÷«Ё… гЁ «Ќ гд «бджЏ DWORD
+жд”гне NORECENTDOCSHISTORY
+Ћг дЏЎне «бёнг… ( 1 ) б ЏЎнб «б≈÷«Ё…
+√ж«бёнге ( 0 ) б ‘џнб «б≈÷«Ё…
+№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№
+
+18- гдЏ  Џѕнб √ж Ќ–Ё √н гяжд гд гяжд«  ё«∆г… ≈»ѕ√ 
+ёг » ‘џнб гЌ—— «б  ”ћнб REGEDIT 
+Ћг дд ёб «бм «бё”г :
+HKEY_CURRENT_USER\SOFTWARE\MICROSOFT\
+WINDOWS\CURRENTVERSION\POLICIES\EXPLORER
+дёжг »≈÷«Ё… гЁ «Ќ гд «бджЏ DWORD
+жд”гне NOCHANGESTARTMENU
+Ћг дЏЎне «бёнг… ( 1 ) б ЏЎнб «б≈÷«Ё…
+√ж«бёнге ( 0 ) б ‘џнб «б≈÷«Ё…
+№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№
+
+19- гдЏ ≈÷«Ё… √н —г“ «бм ”ЎЌ «бгя » Џдѕ «бЏ—÷ »«бдгЎ ( ACTIVE DESKTOP )
+ёг » ‘џнб гЌ—— «б  ”ћнб REGEDIT 
+Ћг дд ёб «бм «бё”г :
+HKEY_CURRENT_USER\SOFTWARE\MICROSOFT\
+WINDOWS\CURRENTVERSION\POLICIES\ACTIVEDESKTOP 
+дёжг »≈÷«Ё… гЁ «Ќ гд «бджЏ DWORD
+жд”гне NOADDINGCOMPONENTS
+Ћг дЏЎне «бёнг… ( 1 ) б ЏЎнб «б≈÷«Ё…
+√ж«бёнге ( 0 ) б ‘џнб «б≈÷«Ё…
+№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№
+
+20- гдЏ Ќ–Ё —г“ «бм ”ЎЌ «бгя » Џдѕ «бЏ—÷ »«бдгЎ ( ACTIVE DESKTOP )
+ёг » ‘џнб гЌ—— «б  ”ћнб REGEDIT 
+Ћг дд ёб «бм «бё”г :
+HKEY_CURRENT_USER\SOFTWARE\MICROSOFT\
+WINDOWS\CURRENTVERSION\POLICIES\ACTIVEDESKTOP 
+дёжг »≈÷«Ё… гЁ «Ќ гд «бджЏ DWORD
+жд”гне NODELETINGCOMPONENTS
+Ћг дЏЎне «бёнг… ( 1 ) б ЏЎнб «б≈÷«Ё…
+√ж«бёнге ( 0 ) б ‘џнб «б≈÷«Ё…
+№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№
+
+21- гдЏ  џнн— ќбЁн… ”ЎЌ «бгя » Џдѕ «бЏ—÷ »«бдгЎ ( ACTIVE DESKTOP )
+ёг » ‘џнб гЌ—— «б  ”ћнб REGEDIT 
+Ћг дд ёб «бм «бё”г :
+HKEY_CURRENT_USER\SOFTWARE\MICROSOFT\
+WINDOWS\CURRENTVERSION\POLICIES\ACTIVEDESKTOP 
+дёжг »≈÷«Ё… гЁ «Ќ гд «бджЏ DWORD
+жд”гне NODELETINGCOMPONENTS
+Ћг дЏЎне «бёнг… ( 1 ) б ЏЎнб «б≈÷«Ё…
+√ж«бёнге ( 0 ) б ‘џнб «б≈÷«Ё…
+№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№
+
+22- гдЏ  џнн— ќбЁн… ”ЎЌ «бгя » гд «бджЏ HTML Џдѕ «бЏ—÷ »«бдгЎ ( ACTIVE DESKTOP )
+ёг » ‘џнб гЌ—— «б  ”ћнб REGEDIT 
+Ћг дд ёб «бм «бё”г :
+HKEY_CURRENT_USER\SOFTWARE\MICROSOFT\
+WINDOWS\CURRENTVERSION\POLICIES\ACTIVEDESKTOP 
+дёжг »≈÷«Ё… гЁ «Ќ гд «бджЏ DWORD
+жд”гне NOHTMLWALLPAPER
+Ћг дЏЎне «бёнг… ( 1 ) б ЏЎнб «б≈÷«Ё…
+√ж«бёнге ( 0 ) б ‘џнб «б≈÷«Ё…
+№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№
+
+23- гдЏ «б Џѕнб Џбм «б—гж“ «бгжћжѕ… Џбм ”ЎЌ «бгя » Џдѕ «бЏ—÷ »«бдгЎ ( ACTIVE DESKTOP )
+ёг » ‘џнб гЌ—— «б  ”ћнб REGEDIT 
+Ћг дд ёб «бм «бё”г :
+HKEY_CURRENT_USER\SOFTWARE\MICROSOFT\
+WINDOWS\CURRENTVERSION\POLICIES\ACTIVEDESKTOP 
+дёжг »≈÷«Ё… гЁ «Ќ гд «бджЏ DWORD
+жд”гне NOEDITINGCOMPONENTS
+Ћг дЏЎне «бёнг… ( 1 ) б ЏЎнб «б≈÷«Ё…
+√ж«бёнге ( 0 ) б ‘џнб «б≈÷«Ё…
+№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№
+
+24-  џнн— √нёжд… гЌ—я «б√ё—«’ Hard Disk
+ёг » ‘џнб гЌ—— «б  ”ћнб REGEDIT 
+HKEY_LOCAL_MACHINE\SOFTWARE\MICROSOFT\
+WINDOWS\CURRENTVERSION\EXPLORER\SHELL ICONS
+Ћг дёжг »≈÷«Ё… гЁ «Ќ гд «бджЏ STRING 
+жд”гне 8
+Ћг дЏЎне «бёнг… «б н  гЋб «бг”«— «бя«гб бгя«д  ж÷Џ «б√нёжд… 
+гЋ«б : C:\WINDOWS\HARD DISK.ICO 
+№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№
+
+25-  џнн— √нёжд… гЌ—я «б√ё—«’ «бг—д… Floppy Disk
+ёг » ‘џнб гЌ—— «б  ”ћнб REGEDIT 
+HKEY_LOCAL_MACHINE\SOFTWARE\MICROSOFT\
+WINDOWS\CURRENTVERSION\EXPLORER\SHELL ICONS
+Ћг дёжг »≈÷«Ё… гЁ «Ќ гд «бджЏ STRING 
+жд”гне 6
+Ћг дЏЎне «бёнг… «б н  гЋб «бг”«— «бя«гб бгя«д  ж÷Џ «б√нёжд… 
+гЋ«б : C:\WINDOWS\FLOPPY.ICO
+№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№
+
+26-  џнн— √нёжд… гЌ—я «б√ё—«’ «ббн“—н… CD ROM
+ёг » ‘џнб гЌ—— «б  ”ћнб REGEDIT 
+HKEY_LOCAL_MACHINE\SOFTWARE\MICROSOFT\
+WINDOWS\CURRENTVERSION\EXPLORER\SHELL ICONS
+Ћг дёжг »≈÷«Ё… гЁ «Ќ гд «бджЏ STRING 
+жд”гне 11
+Ћг дЏЎне «бёнг… «б н  гЋб «бг”«— «бя«гб бгя«д  ж÷Џ «б√нёжд… 
+гЋ«б : C:\WINDOWS\CDROM.ICO №№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№
+
+27-  џнн— √нёжд… ”ЎЌ «бгя » «бгжћжѕ… ÷гд ‘—нЎ «бге«г 
+ёг » ‘џнб гЌ—— «б  ”ћнб REGEDIT 
+HKEY_LOCAL_MACHINE\SOFTWARE\MICROSOFT\
+WINDOWS\CURRENTVERSION\EXPLORER\SHELL ICONS
+Ћг дёжг »≈÷«Ё… гЁ «Ќ гд «бджЏ STRING 
+жд”гне 34
+Ћг дЏЎне «бёнг… «б н  гЋб «бг”«— «бя«гб бгя«д  ж÷Џ «б√нёжд… 
+гЋ«б : C:\WINDOWS\DISKTOP.ICO 
+№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№
+
+28- Ќ–Ё «б»—«гћ гд ё«∆г… «÷«Ё… ж«“«б… »Џѕ √д  г Ќ–Ёе« »Ў—нё «бќЎ√ , жЁн е–е «бЌ«б… 
+Џдѕ «бён«г »Ќ–Ёе«  ЏЎн —”«б… гЁ«ѕе« √д «б»—д«гћ џн— гжћжѕ
+жбЌб е–е «бг‘яб… дёжг »«б «бн:
+дЁ Ќ :
+HKEY_LOCAL_MACHINE\SOFTWARE\MICROSOFT\
+WINDOWS\CURRENTVERSION\UNINSTALL
+Ћг дЌѕѕ «б»—д«гћ «бгЎбж» ждЌ–Ёе .
+№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№
+гдЏ Ё Ќ «б√ѕ«… Password Ён Control Panel
+HKEY_CURRENT_USER\SOFTWARE\MICROSOFT\
+WINDOWS\CURRENTVERSION\POLICIES\SYSTEM\NoSecCPL
+Binary 1 Disable 0 Enable
+№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№
+гдЏ Ё Ќ «б√ѕ«… Network Ён Control Pane 
+HKEY_CURRENT_USER\SOFTWARE\MICROSOFT\
+WINDOWS\CURRENTVERSION\POLICIES\NETWORK\NoNetSetup
+Binary 1 disable 0 Enable
+№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№
+≈ќЁ«Ѕ Device Manager Ён ’ЁЌ… ќ’«∆’ «бяг»нж —
+HKEY_CURRENT_USER\SOFTWARE\MICROSOFT\
+WINDOWS\CURRENTVERSION\POLICIES\SYSTEM\NoDevMgrPage
+Binary 1 Disable 0 Enable
+№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№
+≈ќЁ«Ѕ Hardware Profiles гд ’ЁЌ… ќ’«∆’ «бяг»нж —
+HKEY_CURRENT_USER\SOFTWARE\MICROSOFT\
+WINDOWS\CURRENTVERSION\POLICIES\SYSTEM\NoConfigPage
+Binary 1 Disable 0 Enable
+№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№
+≈ќЁ«Ѕ “— File System гд ’ЁЌ… Performace Ён ’ЁЌ… ќ’«∆’ «бяг»нж —
+HKEY_CURRENT_USER\SOFTWARE\MICROSOFT\
+WINDOWS\CURRENTVERSION\POLICIES\SYSTEM\NoFileSysPage
+Binary 1 Disable 0 Enable
+№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№
+≈ќЁ«Ѕ “— Virtual Memory гд ’ЁЌ… Performace Ён ’ЁЌ… ќ’«∆’ «бяг»нж —
+HKEY_CURRENT_USER\SOFTWARE\MICROSOFT\
+WINDOWS\CURRENTVERSION\POLICIES\SYSTEM\NoVirtMemPage
+Binary 1 Disable 0 Enable
+№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№
+≈ќЁ«Ѕ ’ЁЌ… BackGround гд ’ЁЌ… Display Properties 
+HKEY_CURRENT_USER\SOFTWARE\MICROSOFT\
+WINDOWS\CURRENTVERSION\POLICIES\SYSTEM\NoDispBackgroundPage
+Binary 1 Disable 0 Enable
+№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№
+≈ќЁ«Ѕ ’ЁЌ… ScreenSaver гд ’ЁЌ… Display Properties 
+HKEY_CURRENT_USER\SOFTWARE\MICROSOFT\
+WINDOWS\CURRENTVERSION\POLICIES\SYSTEM\NoDispScrSavPage
+Binary 1 Disable 0 Enable
+№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№
+≈ќЁ«Ѕ ’ЁЌ… Setting гд ’ЁЌ… Display Properties 
+HKEY_CURRENT_USER\SOFTWARE\MICROSOFT\
+WINDOWS\CURRENTVERSION\POLICIES\SYSTEM\NoDispSettingsPage
+Binary 1 Disable 0 Enable
+№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№
+≈ќЁ«Ѕ ’ЁЌ… Appearance гд ’ЁЌ… Display Properties 
+HKEY_CURRENT_USER\SOFTWARE\MICROSOFT\
+WINDOWS\CURRENTVERSION\POLICIES\SYSTEM\NoDispAppearancePage
+Binary 1 Disable 0 Enable
+№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№
+≈ќЁ«Ѕ ќн«— Folder Option гд ё«∆г… View :
+HKEY_CURRENT_USER\SOFTWARE\MICROSOFT\
+WINDOWS\CURRENTVERSION\POLICIES\EXPLORER\NoFolderOptions
+Binary 1 Disable 0 Enable
+№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№№

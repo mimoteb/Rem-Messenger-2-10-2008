@@ -1,0 +1,20 @@
+Private Declare Function SendMessage Lib "User32" Alias "SendMessageA" (ByVal hWnd As Long, ByVal wMsg As Long, ByVal wParam As Long, lParam As Any) As Long
+Private Declare Sub ReleaseCapture Lib "User32" ()
+Const WM_NCLBUTTONDOWN = &HA1
+Const HTCAPTION = 2
+Private Sub Form_MouseMove(Button As Integer, Shift As Integer, X As Single, Y As Single)
+    'KPD-Team 1999
+    'URL: http://www.allapi.net/
+    'E-Mail: KPDTeam@Allapi.net
+    Dim lngReturnValue As Long
+    If Button = 1 Then
+        'Release capture
+        Call ReleaseCapture
+        'Send a 'left mouse button down on caption'-message to our form
+        lngReturnValue = SendMessage(Me.hWnd, WM_NCLBUTTONDOWN, HTCAPTION, 0&)
+    End If
+End Sub
+Private Sub Form_Paint()
+    Me.Print "Click on the form, hold the mouse button and drag it"
+End Sub
+

@@ -1,0 +1,3 @@
+Private Sub Timer1_Timer()
+Form1.Caption = Format(Now, "long time") & Format$(Now, "yyyymmdd")
+End Sub

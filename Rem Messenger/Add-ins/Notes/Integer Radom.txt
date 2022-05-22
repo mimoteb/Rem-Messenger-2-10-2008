@@ -1,0 +1,16 @@
+Randomize   '-Randomize the random numbers, so diffrent every time
+'-Declare varibles
+Dim X As Integer
+'-Setup loop to make 50 random integer numbers
+For X = 1 To 50
+    '-Add 50 random integer numbers
+    lstNumbers.AddItem Int(Rnd() * 100 + 1)
+    '-Int(Rnd() = random integer number and a
+    '-math expression to set the scope of the
+    '-random integer, in this case it will make
+    '-numbers between 1-100
+    If X = 50 Then  '-If x = 50 the loop stops
+        Exit For
+    End If
+'-Continue the loop
+Next X

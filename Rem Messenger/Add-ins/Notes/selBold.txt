@@ -1,0 +1,1 @@
+rtf.selbold =not rtf.selbold

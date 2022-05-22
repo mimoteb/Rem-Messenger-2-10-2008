@@ -1,0 +1,5 @@
+FrmServer = 0, 0, 744, 332, Z, 22, 25, 413, 370, C
+frmServerPrevInstance = 132, 132, 672, 580, C, 66, 66, 606, 514, C
+FrmPopup = 220, 220, 758, 668, C, 198, 198, 736, 646, C
+FrmServerDrawBoard = 0, 332, 744, 664, C, 88, 100, 657, 565, C
+Registery = 0, 0, 0, 0, C
